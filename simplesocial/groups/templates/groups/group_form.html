@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "groups/group_base.html" %}
+{% load bootstrap3 %}
 
-</body>
-</html>
+{% block  %}
+<h4>Create a new Group!</h4>
+
+  <form class="" action="{% url 'groups:create' %}" method="post" id="groupForm">
+    {% csrf_token %}
+    {% bootstrap_from form %}
+    <input type="submit" class="btn btn-primary btn-large" value="Create">
+
+  </form>
+
+{% endblock %}
