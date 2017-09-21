@@ -4,7 +4,7 @@ from django.conf import settings
 
 import misaka
 
-from ..groups.models import Group
+from groups.models import Group
 # Create your models here.
 # POSTS MODELS.PY
 
