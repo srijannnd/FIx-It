@@ -1,33 +1,3 @@
-html, body {
-    margin: 0;
-    height: 100%;
-}
-
 .mynav {
-    margin-bottom: 0px;
-    color: black;
-}
-
-a {
-    color: black;
-    font-weight: 500;
-}
-
-.mycontent {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    min-height: 100%;
-    padding: 20px;
-    background: rgba(4, 40, 68, 0.85);
-}
-
-form {
-    margin-top: 0em;
-    background: #ffffff;
-    max-width: 400px;
-    padding: 10px 20px 20px 20px;
-
+  background: antiquewhite;
 }

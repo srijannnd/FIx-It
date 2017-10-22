@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bootstrap3',
     'accounts',
-    'captcha',
+    'groups',
+    'posts',
 ]
 
 MIDDLEWARE = [
@@ -125,10 +126,3 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 LOGIN_REDIRECT_URL = 'test'
 LOGOUT_REDIRECT_URL = 'thanks'
-
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'srijanappdev@gmail.com'
-EMAIL_HOST_PASSWORD = 'app@password'
-EMAIL_USE_TLS = True
-
